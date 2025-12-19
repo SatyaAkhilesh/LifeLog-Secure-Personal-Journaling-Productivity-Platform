@@ -10,8 +10,7 @@ LifeLog is a full stack web application that allows users to maintain personal j
 The project is designed to demonstrate full stack web development using a client server architecture. The frontend communicates with the backend through RESTful APIs. Security, scalability, and clean code structure were key goals during development.
 
 
-**
-Features**
+**Features**
 	•	User registration and login
 	•	JWT based authentication
 	•	Role based access control for users and admins
@@ -65,9 +64,9 @@ Users authenticate using a JWT based login system. After logging in, users can a
 
 
 
-Setup Instructions
+**Setup Instructions**
 
-Prerequisites
+**Prerequisites**
 	•	Java 17 or higher
 	•	Node.js
 	•	npm
