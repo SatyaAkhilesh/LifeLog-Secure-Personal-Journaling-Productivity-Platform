@@ -76,13 +76,14 @@ Users authenticate using a JWT-based login system. After logging in, users can a
 
 ⚙️ Backend Setup
 
-mvn clean install
-mvn spring-boot:run
+    •  mvn clean install
+    •  mvn spring-boot:run
 
 🎨 Frontend Setup
 
-npm install
-npm start
+    •  npm install
+    •  npm start
+ 
 
 
 📊 Results
