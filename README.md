@@ -86,7 +86,32 @@ npm start
 
 The application works reliably with secure authentication, stable frontend and backend communication, and proper data storage. The project demonstrates practical full stack development skills, effective use of REST APIs, and clean architectural design.
 
+**Architecture**
 
-**License**
+Client (Browser)
+ |
+ v
+Frontend Layer
+- React UI
+- Node.js / npm
 
-This project is intended for academic and portfolio use.
+ |
+ v
+Backend Layer (Spring Boot)
+- Controllers
+- Services
+- Security (JWT)
+
+ |
+ v
+Persistence Layer
+- MongoDB (Data)
+- Redis (Cache)
+
+ |
+ v
+External Services
+- Email Service
+- Weather API
+
+
