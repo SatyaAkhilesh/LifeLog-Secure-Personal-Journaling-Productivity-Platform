@@ -89,12 +89,12 @@ The application works reliably with secure authentication, stable frontend and b
 
 User
  |
- v
+ 
 React Frontend
 (Node.js, npm)
  |
  | REST API (JWT)
- v
+ 
 Spring Boot Backend
  |
  |--------------------|
