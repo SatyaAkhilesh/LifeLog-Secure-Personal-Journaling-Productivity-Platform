@@ -26,7 +26,6 @@ The project is designed to demonstrate full stack web development using a client
 
 **Frontend**
 	•	React
-	•	JavaScript (ES6)
 	•	Node.js
 	•	npm
 
