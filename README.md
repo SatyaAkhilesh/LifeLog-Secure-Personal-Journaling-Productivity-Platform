@@ -15,11 +15,17 @@ This project is designed to demonstrate full stack web development using a clien
 
 ✨ Features
 	•	👤 User registration and login
+	
 	•	🔐 JWT-based authentication
+	
 	•	🛡️ Role-based access control for users and administrators
+	
 	•	📝 Create, view, update, and delete journal entries
+	
 	•	✅ Checklist creation and management
+	
 	•	👨‍💼 Admin functionality to manage user roles
+	
 	•	⚡ Redis caching to improve application performance
 
 
@@ -28,17 +34,23 @@ This project is designed to demonstrate full stack web development using a clien
 
 🎨 Frontend
 	•	React
+	
 	•	Node.js
+	
 	•	npm
 
 ⚙️ Backend
 	•	Java
+	
 	•	Spring Boot
+	
 	•	Spring Security
+	
 	•	Weather API
 
 🗄️ Database & Caching
 	•	MongoDB
+	
 	•	Redis
 
 
@@ -57,10 +69,15 @@ Users authenticate using a JWT-based login system. After logging in, users can a
 
 🧩 Design Patterns Used
 	•	🔁 Singleton pattern for Spring-managed service classes
+	
 	•	🏭 Factory pattern for handling various user actions
+	
 	•	🧱 Builder pattern for creating entity objects
+	
 	•	🔌 Adapter pattern for Redis integration
+	
 	•	🎮 Controller pattern following the MVC architecture
+	
 	•	📦 Command pattern for executing specific operations
 
 
@@ -69,19 +86,25 @@ Users authenticate using a JWT-based login system. After logging in, users can a
 
 ✅ Prerequisites
 	•	Java 17 or higher
+	
 	•	Node.js
+	
 	•	npm
+	
 	•	MongoDB
+	
 	•	Redis
 
 ⚙️ Backend Setup
 
     •  mvn clean install
+	
     •  mvn spring-boot:run
 
 🎨 Frontend Setup
 
     •  npm install
+	
     •  npm start
  
 
