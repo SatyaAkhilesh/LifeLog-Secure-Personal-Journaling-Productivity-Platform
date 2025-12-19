@@ -87,30 +87,19 @@ The application works reliably with secure authentication, stable frontend and b
 
 **Architecture**
 
-Client (Browser)
+User
  |
  v
-Frontend Layer
-- React UI
-- Node.js / npm
-
+React Frontend
+(Node.js, npm)
  |
+ | REST API (JWT)
  v
-Backend Layer (Spring Boot)
-- Controllers
-- Services
-- Security (JWT)
-
+Spring Boot Backend
  |
- v
-Persistence Layer
-- MongoDB (Data)
-- Redis (Cache)
-
- |
- v
-External Services
-- Email Service
-- Weather API
+ |--------------------|
+ |                    |
+MongoDB            Redis
+(Database)         (Cache)
 
 
