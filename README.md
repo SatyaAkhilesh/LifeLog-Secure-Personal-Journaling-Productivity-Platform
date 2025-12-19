@@ -85,21 +85,3 @@ npm start
 
 The application works reliably with secure authentication, stable frontend and backend communication, and proper data storage. The project demonstrates practical full stack development skills, effective use of REST APIs, and clean architectural design.
 
-**Architecture**
-
-User
- |
- 
-React Frontend
-(Node.js, npm)
- |
- | REST API (JWT)
- 
-Spring Boot Backend
- |
- |--------------------|
- |                    |
-MongoDB            Redis
-(Database)         (Cache)
-
-
